@@ -1,0 +1,15 @@
+.container{
+    max-width: 60%;
+    margin: 5em auto;
+}
+
+.header-title{
+    text-transform: uppercase;
+    margin-top: 0;
+    color: #CCC;
+    text-align: center;
+}
+
+.header-title + HR {
+    border-color: #CCC;
+}
