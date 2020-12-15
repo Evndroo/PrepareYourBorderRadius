@@ -1,0 +1,25 @@
+.code > pre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copy-button{
+    max-width: 70px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: 0;
+}
+
+.copy-button > img{
+    max-width: 100%;
+}
+
+.copy-button:focus{
+    outline: 0;
+}
+
+.copy-button:hover{
+    transform: scale3d(0.8,0.8,0.5);
+}
