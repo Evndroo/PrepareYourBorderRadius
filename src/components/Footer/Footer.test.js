@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from "./index";
-import { fireEvent, render } from "@testing-library/react"
+import { render } from "@testing-library/react"
 import '@testing-library/jest-dom/extend-expect'
 
 describe("testing if the footer has...", function(){
